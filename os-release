@@ -1,0 +1,7 @@
+NAME="Crystal Linux"
+PRETTY_NAME="Crystal Linux"
+ID=crystal
+BUILD_ID=rolling
+HOME_URL="https://getcryst.al"
+LOGO=crystal
+ANSI_COLOR="0;35"
