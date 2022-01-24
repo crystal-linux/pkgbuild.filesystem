@@ -15,7 +15,7 @@ backup=('etc/crypttab' 'etc/fstab' 'etc/group' 'etc/gshadow' 'etc/host.conf'
         'etc/passwd' 'etc/profile' 'etc/resolv.conf' 'etc/securetty'
         'etc/shadow' 'etc/shells')
 
-source=('git+https://git.tar.black/crystal/filesystem-src' 'git+https://git.tar.black/crystal/branding')
+source=('git+https://git.tar.black/crystal/filesystem' 'git+https://git.tar.black/crystal/branding')
 md5sums=('SKIP')
 
 package() {
