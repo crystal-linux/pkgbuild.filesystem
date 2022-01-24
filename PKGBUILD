@@ -18,7 +18,7 @@ backup=('etc/crypttab' 'etc/fstab' 'etc/group' 'etc/gshadow' 'etc/host.conf'
 source=('crypttab' 'env-generator' 'fstab' 'group' 'gshadow' 'host.conf' 'hosts'
         'issue' 'ld.so.conf' 'locale.sh' 'motd' 'nsswitch.conf' 'os-release'
         'passwd' 'profile' 'resolv.conf' 'securetty' 'shadow' 'shells' 'sysctl'
-        'sysusers' 'tmpfiles' 'branding::git+https://git.getcryst.al/crystal/branding')
+        'sysusers' 'tmpfiles' 'branding::git+https://git.tar.black/crystal/branding')
 md5sums=('b9c76664c69024a43e43995c61829037'
          '592e95598f5ed89393aa15ce6fbb67aa'
          '41a143cfc324dc6aeee0d2bc482accfd'
