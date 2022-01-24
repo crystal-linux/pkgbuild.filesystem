@@ -40,7 +40,6 @@ package() {
 
         # setup /etc and /usr/share/factory/etc
         install -d etc/{ld.so.conf.d,skel,profile.d} usr/share/factory/etc
-        pushd filesystem
         for f in fstab group host.conf hosts issue ld.so.conf motd nsswitch.conf \
         passwd resolv.conf securetty shells profile; do
         install -m644 "$srcdir"/$f etc/
@@ -51,7 +50,6 @@ package() {
         install -m600 "$srcdir"/$f etc/
         install -m600 "$srcdir"/$f usr/share/factory/etc/
         done
-        popd
 
         touch etc/arch-release
         install -m644 "$srcdir"/locale.sh etc/profile.d/locale.sh
