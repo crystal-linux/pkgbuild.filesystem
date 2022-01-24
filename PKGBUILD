@@ -3,45 +3,20 @@
 # Arch Contributor: Tom Gundersen <teg@jklm.no>
 
 pkgname=filesystem
-pkgver=2021.12.21
-pkgrel=2
+pkgver=2022.01.24
+pkgrel=1
 pkgdesc='Base Crystal Linux filesystem'
 arch=('any')
 license=('GPL')
-url='https://crystal-ux.com'
+url='https://getcryst.al'
 depends=('iana-etc' 'zsh')
 backup=('etc/crypttab' 'etc/fstab' 'etc/group' 'etc/gshadow' 'etc/host.conf'
         'etc/hosts' 'etc/issue' 'etc/ld.so.conf' 'etc/motd' 'etc/nsswitch.conf'
         'etc/passwd' 'etc/profile' 'etc/resolv.conf' 'etc/securetty'
         'etc/shadow' 'etc/shells')
 
-source=('crypttab' 'env-generator' 'fstab' 'group' 'gshadow' 'host.conf' 'hosts'
-        'issue' 'ld.so.conf' 'locale.sh' 'motd' 'nsswitch.conf' 'os-release'
-        'passwd' 'profile' 'resolv.conf' 'securetty' 'shadow' 'shells' 'sysctl'
-        'sysusers' 'tmpfiles' 'branding::git+https://git.getcryst.al/crystal/branding')
-md5sums=('b9c76664c69024a43e43995c61829037'
-         '592e95598f5ed89393aa15ce6fbb67aa'
-         '41a143cfc324dc6aeee0d2bc482accfd'
-         '05e0d954b42829d841a9accb4e91aa92'
-         'fb16aacc44ebbf851e551a0cea05ae38'
-         'd04d4db703cf4b67531ef2d6e8f170d7'
-         '22e793fc6c6c9dfef1e7315b2c5fe5b8'
-         '26939bc58d9511f52c6de008f5b31b27'
-         '06e8489a2d65213f22fef5720b1b9f82'
-         'd99d36b214ebb359a9eb0f89e73fa195'
-         'd41d8cd98f00b204e9800998ecf8427e'
-         '846b16822cbd179d56b4f0cf73f8584d'
-         '5815c6f62254678004ecd2a82a311379'
-         '3a7f4e53c359e53005406293ca5cdbfc'
-         'a4b2bfbea6a33829e918ab04227d1117'
-         '5180708c59163a246fa2bbb9332ffe1e'
-         'e6608cf59bd9abfd95d2205651df0837'
-         '7676fef413eeacda1c2aa47e0bcf2bda'
-         '6a404ee10231969bc1631b918080d9b0'
-         '75d3e809cd284bd8d90abde0f50ab39b'
-         '36526545aca4eec2093d157ff851d0b4'
-         'ab36f513e5f85da1281ae26e38ddbe80'
-         'SKIP')
+source=('git+https://git.tar.black/crystal/filesystem-src' 'git+https://git.tar.black/crystal/branding')
+md5sums=('SKIP')
 
 package() {
 
