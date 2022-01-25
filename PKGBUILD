@@ -3,12 +3,12 @@
 # Arch Contributor: Tom Gundersen <teg@jklm.no>
 
 pkgname=filesystem
-pkgver=2021.12.21
+pkgver=2022.01.25
 pkgrel=2
 pkgdesc='Base Crystal Linux filesystem'
 arch=('any')
 license=('GPL')
-url='https://crystal-ux.com'
+url='https://getcryst.al'
 depends=('iana-etc' 'zsh')
 backup=('etc/crypttab' 'etc/fstab' 'etc/group' 'etc/gshadow' 'etc/host.conf'
         'etc/hosts' 'etc/issue' 'etc/ld.so.conf' 'etc/motd' 'etc/nsswitch.conf'
