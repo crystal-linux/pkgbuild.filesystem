@@ -4,7 +4,7 @@
 
 pkgname=filesystem
 pkgver=2022.02.03
-pkgrel=4
+pkgrel=5
 pkgdesc='Base Crystal Linux filesystem'
 arch=('any')
 license=('GPL')
@@ -49,6 +49,7 @@ package() {
         cp branding/logos/crystal-logo-minimal.png ${pkgdir}/usr/share/pixmaps/crystal.png
         cp branding/logos/crystal-logo-minimal.png ${pkgdir}/usr/share/pixmaps/crystal-logo.png
         cp branding/logos/crystal-minimal-scaled.png ${pkgdir}/usr/share/pixmaps/.
+        cp branding/logos/crystal-minimal-micro.png ${pkgdir}/usr/share/pixmaps/.
 
         cd "$pkgdir"
 
