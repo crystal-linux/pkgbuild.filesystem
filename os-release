@@ -3,5 +3,5 @@ PRETTY_NAME="Crystal Linux"
 ID=crystal
 BUILD_ID=rolling
 HOME_URL="https://getcryst.al"
-LOGO=crystal-minimal-micro
+LOGO=crystal-os-logo
 ANSI_COLOR="0;35"
