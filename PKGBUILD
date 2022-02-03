@@ -3,7 +3,7 @@
 # Arch Contributor: Tom Gundersen <teg@jklm.no>
 
 pkgname=filesystem
-pkgver=2022.01.25
+pkgver=2022.02.03
 pkgrel=2
 pkgdesc='Base Crystal Linux filesystem'
 arch=('any')
@@ -46,8 +46,7 @@ md5sums=('b9c76664c69024a43e43995c61829037'
 package() {
 
         mkdir -p ${pkgdir}/usr/share/pixmaps
-        cp branding/logos/crystal-logo-minimal.png ${pkgdir}/usr/share/pixmaps/crystal-logo.png
-        cp branding/logos/crystal-logo-promo.png ${pkgdir}/usr/share/pixmaps/crystal.png
+        cp branding/logos/crystal-logo-minimal.png ${pkgdir}/usr/share/pixmaps/crystal{-logo}.png
 
         cd "$pkgdir"
 
